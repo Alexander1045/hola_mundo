@@ -1,0 +1,12 @@
+const pantalla = document.getElementById('resultado');
+function saludar() {
+    let nombre = prompt("Hola, ¿como te llamas?");
+    if (nombre !== null && nombre !== "") {
+        pantalla.innerText = `¡Que gusto conocerte ${nombre}! :)`
+    if (nombre == "angie") {
+        pantalla.innerText = `Profe esto es muy facil`
+    }
+    } else {
+        pantalla.innerText = "No digitaste tú nombre :("
+    }
+}
